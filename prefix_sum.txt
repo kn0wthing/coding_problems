@@ -1,0 +1,70 @@
+# Prefix Sum Problems: Medium to Hard
+
+## Medium Problems
+
+| Problem | Key Twist |
+|---------|-----------|
+| **Subarray Sum Equals K** (560) | Basic prefix sum + hashmap counting |
+| **Continuous Subarray Sum** (523) | Modulo + check if same remainder seen (at least 2 apart) |
+| **Subarray Sums Divisible by K** (974) | Modulo + count all pairs with same remainder |
+| **Binary Subarrays With Sum** (930) | Prefix sum on 0/1 array |
+| **Find Pivot Index** (724) | Left sum == Right sum |
+| **Product of Array Except Self** (238) | Prefix product from both ends |
+| **Range Sum Query 2D - Immutable** (304) | 2D prefix sum |
+| **Maximum Size Subarray Sum Equals k** (325) | Store first occurrence for longest length |
+| **Contiguous Array** (525) | Convert 0→-1, find longest sum=0 |
+| **Path Sum III** (437) | Prefix sum on tree paths |
+| **Number of Submatrices That Sum to Target** (1074) | 2D: fix columns, reduce to 1D prefix sum |
+| **Count Number of Nice Subarrays** (1248) | Count odd numbers as 1, even as 0 |
+| **Make Sum Divisible by P** (1590) | Remove smallest subarray to make remaining divisible |
+| **Subarray Product Less Than K** (713) | Sliding window (not hashmap prefix) |
+
+---
+
+## Hard Problems
+
+| Problem | Key Twist |
+|---------|-----------|
+| **Number of Submatrices That Sum to Target** (1074) | 2D prefix sum + fix two rows + 1D subarray sum |
+| **Subarrays with K Different Integers** (992) | atMost(k) - atMost(k-1) technique |
+| **Count Subarrays With Median K** (2488) | Transform: >median as +1, <median as -1 |
+| **Maximum Sum of 3 Non-Overlapping Subarrays** (689) | Prefix sum + DP for best left/right |
+| **Split Array With Same Average** (805) | Prefix sum + meet in middle + subset sum |
+| **Shortest Subarray with Sum at Least K** (862) | Prefix sum + monotonic deque (handles negatives) |
+| **Count of Range Sum** (327) | Prefix sum + merge sort or BIT |
+| **Max Sum of Rectangle No Larger Than K** (363) | 2D prefix + ordered set for closest sum ≤ k |
+| **Stamping the Grid** (2132) | 2D prefix sum + difference array |
+| **K-th Smallest Prime Fraction** (786) | Binary search + prefix reasoning |
+| **Sum of Distances** (2615) | Prefix sum + math for contribution |
+
+---
+
+## Problem Selection by Technique
+
+### Prefix Sum + Hashmap (Count)
+- Subarray Sum Equals K
+- Subarray Sums Divisible by K
+- Binary Subarrays With Sum
+
+### Prefix Sum + Hashmap (First Index for Length)
+- Maximum Size Subarray Sum Equals k
+- Contiguous Array
+- Make Sum Divisible by P
+
+### Prefix Sum + Monotonic Deque
+- Shortest Subarray with Sum at Least K
+
+### Prefix Sum + Merge Sort / BIT
+- Count of Range Sum
+- Reverse Pairs (similar technique)
+
+### 2D Prefix Sum
+- Range Sum Query 2D
+- Number of Submatrices That Sum to Target
+- Max Sum of Rectangle No Larger Than K
+
+### Prefix Sum + DP
+- Maximum Sum of 3 Non-Overlapping Subarrays
+- Split Array With Same Average
+
+---
