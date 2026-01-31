@@ -3,42 +3,42 @@
 This topic has distinct sub-patterns that each need practice.
 
 ### Fixed Window
-| # | Problem | Key Learning |
+| Status | # | Problem | Key Learning |
 |---|---------|--------------|
 | 1 | Maximum Average Subarray I (643) | Basic fixed window |
 | 2 | Sliding Window Maximum (239) | Fixed window + monotonic deque |
 | 3 | Sliding Window Median (480) | Fixed window + two heaps + lazy deletion |
 
 ### Variable Window — Shrink When Invalid
-| # | Problem | Key Learning |
+| Status | # | Problem | Key Learning |
 |---|---------|--------------|
-| 4 | Longest Substring Without Repeating Characters (3) | Basic variable window |
-| 5 | Longest Repeating Character Replacement (424) | Window with frequency constraint |
-| 6 | Max Consecutive Ones III (1004) | Binary array window |
-| 7 | Fruit Into Baskets (904) | At most k distinct |
-| 8 | Longest Substring with At Most K Distinct Characters (340) | Generalized k distinct |
-| 9 | Get Equal Substrings Within Budget (1208) | Cost-based window |
+| DONE | 4 | Longest Substring Without Repeating Characters (3) | Basic variable window |
+| DONE | 5 | Longest Repeating Character Replacement (424) | Window with frequency constraint |
+| DONE | 6 | Max Consecutive Ones III (1004) | Binary array window |
+| DONE | 7 | Fruit Into Baskets (904) | At most k distinct |
+| DONE | 8 | Longest Substring with At Most K Distinct Characters (340) | Generalized k distinct |
+| DONE | 9 | Get Equal Substrings Within Budget (1208) | Cost-based window |
 
 ### Variable Window — Shrink When Valid (Minimum)
-| # | Problem | Key Learning |
+| Status | # | Problem | Key Learning |
 |---|---------|--------------|
-| 10 | Minimum Window Substring (76) | The hardest standard template |
-| 11 | Minimum Size Subarray Sum (209) | Minimum length with sum |
-| 12 | Minimum Window Subsequence (727) | Subsequence matching |
+| DONE | 10 | Minimum Window Substring (76) | The hardest standard template |
+| DONE | 11 | Minimum Size Subarray Sum (209) | Minimum length with sum |
+| DONE | 12 | Minimum Window Subsequence (727) | Subsequence matching |
 
 ### Count Subarrays — atMost(k) Trick
-| # | Problem | Key Learning |
+| Status | # | Problem | Key Learning |
 |---|---------|--------------|
-| 13 | Subarrays with K Different Integers (992) | exactly(k) = atMost(k) - atMost(k-1) |
-| 14 | Count Number of Nice Subarrays (1248) | Same trick on odd numbers |
-| 15 | Binary Subarrays With Sum (930) | Same trick on binary |
-| 16 | Number of Substrings Containing All Three Characters (1358) | atLeast variation |
+| DONE | 13 | Subarrays with K Different Integers (992) | exactly(k) = atMost(k) - atMost(k-1) |
+| DONE | 14 | Count Number of Nice Subarrays (1248) | Same trick on odd numbers |
+| DONE | 15 | Binary Subarrays With Sum (930) | Same trick on binary |
+| DONE | 16 | Number of Substrings Containing All Three Characters (1358) | atLeast variation |
 
 ### Advanced / Hybrid
-| # | Problem | Key Learning |
+| Status | # | Problem | Key Learning |
 |---|---------|--------------|
-| 17 | Minimum Number of K Consecutive Bit Flips (995) | Window + greedy + state tracking |
-| 18 | Shortest Subarray with Sum at Least K (862) | Window fails (negatives), need monotonic deque |
+| DONE | 17 | Minimum Number of K Consecutive Bit Flips (995) | Window + greedy + state tracking |
+| DONE | 18 | Shortest Subarray with Sum at Least K (862) | Window fails (negatives), need monotonic deque |
 
 ---
 
@@ -47,263 +47,263 @@ This topic has distinct sub-patterns that each need practice.
 ## Sliding Window — Additional Variations
 
 ### Sliding Window with Data Structures
-| # | Problem | Key Learning |
+| Status | # | Problem | Key Learning |
 |---|---------|--------------|
-| 1 | Longest Continuous Subarray With Absolute Diff <= Limit (1438) | Two deques (min and max) |
-| 2 | Max Value of Equation (1499) | Monotonic deque in window |
-| 3 | Constrained Subsequence Sum (1425) | DP + monotonic deque |
-| 4 | Jump Game VI (1696) | DP + monotonic deque |
+| DONE | 1 | Longest Continuous Subarray With Absolute Diff <= Limit (1438) | Two deques (min and max) |
+| DONE | 2 | Max Value of Equation (1499) | Monotonic deque in window |
+| DONE | 3 | Constrained Subsequence Sum (1425) | DP + monotonic deque |
+| DONE | 4 | Jump Game VI (1696) | DP + monotonic deque |
 
 ### Sliding Window with Multiple Conditions
-| # | Problem | Key Learning |
+| Status | # | Problem | Key Learning |
 |---|---------|--------------|
-| 5 | Count Subarrays With Fixed Bounds (2444) | Track both min and max positions |
-| 6 | Longest Substring with At Least K Repeating Characters (395) | Divide and conquer OR enumerate unique chars |
-| 7 | Maximum Number of Visible Points (1610) | Circular angle-based window |
+| DONE | 5 | Count Subarrays With Fixed Bounds (2444) | Track both min and max positions |
+| DONE | 6 | Longest Substring with At Least K Repeating Characters (395) | Divide and conquer OR enumerate unique chars |
+| DONE | 7 | Maximum Number of Visible Points (1610) | Circular angle-based window |
 
 ### Sliding Window on Complement / Reverse Thinking
-| # | Problem | Key Learning |
+| Status | # | Problem | Key Learning |
 |---|---------|--------------|
-| 8 | Minimum Operations to Reduce X to Zero (1658) | Find longest middle with sum = total - x |
-| 9 | Maximum Points You Can Obtain from Cards (1423) | Window on complement |
-| 10 | Minimum Swaps to Group All 1's Together II (2134) | Circular array window |
+| DONE | 8 | Minimum Operations to Reduce X to Zero (1658) | Find longest middle with sum = total - x |
+| DONE | 9 | Maximum Points You Can Obtain from Cards (1423) | Window on complement |
+| DONE | 10 | Minimum Swaps to Group All 1's Together II (2134) | Circular array window |
 
 ### Fixed Window Variations
-| # | Problem | Key Learning |
+| Status | # | Problem | Key Learning |
 |---|---------|--------------|
-| 11 | Grumpy Bookstore Owner (1052) | Maximize gain in fixed window |
-| 12 | K Radius Subarray Averages (2090) | Fixed window with edge handling |
-| 13 | Find All Anagrams in String (438) | Fixed window frequency match |
-| 14 | Permutation in String (567) | Fixed window existence |
+| DONE | 11 | Grumpy Bookstore Owner (1052) | Maximize gain in fixed window |
+| DONE | 12 | K Radius Subarray Averages (2090) | Fixed window with edge handling |
+| DONE | 13 | Find All Anagrams in String (438) | Fixed window frequency match |
+| DONE | 14 | Permutation in String (567) | Fixed window existence |
 
 ### Multi-Window / Complex Counting
-| # | Problem | Key Learning |
+| Status | # | Problem | Key Learning |
 |---|---------|--------------|
-| 15 | Count Subarrays Where Max Element Appears at Least K Times (2962) | Contribution with window |
-| 16 | Shortest Subarray to be Removed to Make Array Sorted (1574) | Two pointers from ends |
-| 17 | Maximum Fruits Harvested After at Most K Steps (2106) | Prefix sum + window |
-| 18 | Minimum Adjacent Swaps for K Consecutive Ones (1703) | Median + window |
+| DONE | 15 | Count Subarrays Where Max Element Appears at Least K Times (2962) | Contribution with window |
+| DONE | 16 | Shortest Subarray to be Removed to Make Array Sorted (1574) | Two pointers from ends |
+| DONE | 17 | Maximum Fruits Harvested After at Most K Steps (2106) | Prefix sum + window |
+| DONE | 18 | Minimum Adjacent Swaps for K Consecutive Ones (1703) | Median + window |
 
 ---
 
 ## 2. Two Pointers (14 problems)
 
 ### Opposite Ends
-| # | Problem | Key Learning |
+| Status | # | Problem | Key Learning |
 |---|---------|--------------|
-| 1 | Two Sum II (167) | Basic converging pointers |
-| 2 | 3Sum (15) | Fix one + two pointer + skip duplicates |
-| 3 | 4Sum (18) | Fix two + two pointer |
-| 4 | 3Sum Closest (16) | Optimization variant |
-| 5 | Container With Most Water (11) | Greedy movement proof |
-| 6 | Trapping Rain Water (42) | Two pointer O(1) space solution |
+| DONE | 1 | Two Sum II (167) | Basic converging pointers |
+| DONE | 2 | 3Sum (15) | Fix one + two pointer + skip duplicates |
+| DONE | 3 | 4Sum (18) | Fix two + two pointer |
+| DONE | 4 | 3Sum Closest (16) | Optimization variant |
+| DONE | 5 | Container With Most Water (11) | Greedy movement proof |
+| DONE | 6 | Trapping Rain Water (42) | Two pointer O(1) space solution |
 
 ### Same Direction (Slow/Fast)
-| # | Problem | Key Learning |
+| Status | # | Problem | Key Learning |
 |---|---------|--------------|
-| 7 | Remove Duplicates from Sorted Array II (80) | In-place with constraint |
-| 8 | Move Zeroes (283) | Partition style |
-| 9 | Sort Colors (75) | Dutch national flag, 3-way partition |
+| DONE | 7 | Remove Duplicates from Sorted Array II (80) | In-place with constraint |
+| DONE | 8 | Move Zeroes (283) | Partition style |
+| DONE | 9 | Sort Colors (75) | Dutch national flag, 3-way partition |
 
 ### Two Arrays
-| # | Problem | Key Learning |
+| Status | # | Problem | Key Learning |
 |---|---------|--------------|
-| 10 | Merge Sorted Array (88) | Merge from end |
-| 11 | Interval List Intersections (986) | Two lists intersection |
-| 12 | Shortest Word Distance III (245) | Handle same word |
+| DONE | 10 | Merge Sorted Array (88) | Merge from end |
+| DONE | 11 | Interval List Intersections (986) | Two lists intersection |
+| DONE | 12 | Shortest Word Distance III (245) | Handle same word |
 
 ### Advanced
-| # | Problem | Key Learning |
+| Status | # | Problem | Key Learning |
 |---|---------|--------------|
-| 13 | 4Sum II (454) | Hashmap meets pair thinking |
-| 14 | Boats to Save People (881) | Greedy pairing |
+| DONE | 13 | 4Sum II (454) | Hashmap meets pair thinking |
+| DONE | 14 | Boats to Save People (881) | Greedy pairing |
 
 ---
 
 ## 3. Monotonic Stack (16 problems)
 
 ### Next/Previous Greater/Smaller
-| # | Problem | Key Learning |
+| Status | # | Problem | Key Learning |
 |---|---------|--------------|
-| 1 | Next Greater Element I (496) | Basic template |
-| 2 | Next Greater Element II (503) | Circular array |
-| 3 | Daily Temperatures (739) | Next greater index |
-| 4 | Online Stock Span (901) | Previous greater/equal span |
-| 5 | 132 Pattern (456) | Track max on right |
+| DONE | 1 | Next Greater Element I (496) | Basic template |
+| DONE | 2 | Next Greater Element II (503) | Circular array |
+| DONE | 3 | Daily Temperatures (739) | Next greater index |
+| DONE | 4 | Online Stock Span (901) | Previous greater/equal span |
+| DONE | 5 | 132 Pattern (456) | Track max on right |
 
 ### Histogram Pattern
-| # | Problem | Key Learning |
+| Status | # | Problem | Key Learning |
 |---|---------|--------------|
-| 6 | Largest Rectangle in Histogram (84) | THE classic |
-| 7 | Maximal Rectangle (85) | Apply histogram per row |
-| 8 | Trapping Rain Water (42) | Stack solution |
+| DONE | 6 | Largest Rectangle in Histogram (84) | THE classic |
+| DONE | 7 | Maximal Rectangle (85) | Apply histogram per row |
+| DONE | 8 | Trapping Rain Water (42) | Stack solution |
 
 ### Contribution Technique
-| # | Problem | Key Learning |
+| Status | # | Problem | Key Learning |
 |---|---------|--------------|
-| 9 | Sum of Subarray Minimums (907) | Count contribution of each element |
-| 10 | Sum of Subarray Ranges (2104) | Max contribution - min contribution |
-| 11 | Sum of Total Strength of Wizards (2281) | Contribution + prefix of prefix |
+| DONE | 9 | Sum of Subarray Minimums (907) | Count contribution of each element |
+| DONE | 10 | Sum of Subarray Ranges (2104) | Max contribution - min contribution |
+| DONE | 11 | Sum of Total Strength of Wizards (2281) | Contribution + prefix of prefix |
 
 ### String / Number Construction
-| # | Problem | Key Learning |
+| Status | # | Problem | Key Learning |
 |---|---------|--------------|
-| 12 | Remove K Digits (402) | Build smallest number |
-| 13 | Remove Duplicate Letters (316) | Lexicographically smallest |
-| 14 | Create Maximum Number (321) | Two arrays, merge |
+| DONE | 12 | Remove K Digits (402) | Build smallest number |
+| DONE | 13 | Remove Duplicate Letters (316) | Lexicographically smallest |
+| DONE | 14 | Create Maximum Number (321) | Two arrays, merge |
 
 ### Advanced
-| # | Problem | Key Learning |
+| Status | # | Problem | Key Learning |
 |---|---------|--------------|
-| 15 | Maximum Width Ramp (962) | Monotonic + binary search |
-| 16 | Odd Even Jump (975) | Monotonic + DP |
+| DONE | 15 | Maximum Width Ramp (962) | Monotonic + binary search |
+| DONE | 16 | Odd Even Jump (975) | Monotonic + DP |
 
 ---
 
 ## Monotonic Stack/Deque — Additional Variations
 
 ### Double Deque Pattern
-| # | Problem | Key Learning |
+| Status | # | Problem | Key Learning |
 |---|---------|--------------|
-| 1 | Longest Continuous Subarray With Absolute Diff <= Limit (1438) | Min deque + max deque simultaneously |
-| 2 | Shortest Subarray with Sum at Least K (862) | Monotonic deque (not two, but essential) |
+| DONE | 1 | Longest Continuous Subarray With Absolute Diff <= Limit (1438) | Min deque + max deque simultaneously |
+| DONE | 2 | Shortest Subarray with Sum at Least K (862) | Monotonic deque (not two, but essential) |
 
 ### Monotonic Deque + DP
-| # | Problem | Key Learning |
+| Status | # | Problem | Key Learning |
 |---|---------|--------------|
-| 3 | Constrained Subsequence Sum (1425) | DP transition with deque optimization |
-| 4 | Jump Game VI (1696) | Max in sliding window for DP |
-| 5 | Max Value of Equation (1499) | Deque maintains y - x values |
-| 6 | Maximum Number of Books You Can Take (2355) | Stack + arithmetic progression DP |
+| DONE | 3 | Constrained Subsequence Sum (1425) | DP transition with deque optimization |
+| DONE | 4 | Jump Game VI (1696) | Max in sliding window for DP |
+| DONE | 5 | Max Value of Equation (1499) | Deque maintains y - x values |
+| DONE | 6 | Maximum Number of Books You Can Take (2355) | Stack + arithmetic progression DP |
 
 ### Stack with Complex State
-| # | Problem | Key Learning |
+| Status | # | Problem | Key Learning |
 |---|---------|--------------|
-| 7 | Number of Visible People in a Queue (1944) | Stack counting visible |
-| 8 | Steps to Make Array Non-decreasing (2289) | Reverse simulation with stack |
-| 9 | Robot Collisions (2751) | Stack with collision physics |
-| 10 | Find Building Where Alice and Bob Can Meet (2940) | Offline + monotonic stack |
-| 11 | Number of People That Can Be Seen in a Grid (2282) | 2D visibility |
+| DONE | 7 | Number of Visible People in a Queue (1944) | Stack counting visible |
+| DONE | 8 | Steps to Make Array Non-decreasing (2289) | Reverse simulation with stack |
+| DONE | 9 | Robot Collisions (2751) | Stack with collision physics |
+| DONE | 10 | Find Building Where Alice and Bob Can Meet (2940) | Offline + monotonic stack |
+| DONE | 11 | Number of People That Can Be Seen in a Grid (2282) | 2D visibility |
 
 ### Stack + Contribution (Advanced)
-| # | Problem | Key Learning |
+| Status | # | Problem | Key Learning |
 |---|---------|--------------|
-| 12 | Sum of Total Strength of Wizards (2281) | Prefix of prefix sum + stack |
-| 13 | Count Submatrices With All Ones (1504) | Stack per row |
-| 14 | Maximum Score of a Good Subarray (1793) | Expand from k with stack |
-| 15 | Maximal Rectangle (85) | Already have, but critical |
+| DONE | 12 | Sum of Total Strength of Wizards (2281) | Prefix of prefix sum + stack |
+| DONE | 13 | Count Submatrices With All Ones (1504) | Stack per row |
+| DONE | 14 | Maximum Score of a Good Subarray (1793) | Expand from k with stack |
+| DONE | 15 | Maximal Rectangle (85) | Already have, but critical |
 
 ### Stack for Parsing / Expression
-| # | Problem | Key Learning |
+| Status | # | Problem | Key Learning |
 |---|---------|--------------|
-| 16 | Basic Calculator (224) | Stack for parentheses |
-| 17 | Basic Calculator II (227) | Operator precedence |
-| 18 | Basic Calculator III (772) | Combined |
-| 19 | Number of Atoms (726) | Nested parsing |
-| 20 | Decode String (394) | Nested brackets |
-| 21 | Exclusive Time of Functions (636) | Call stack simulation |
+| DONE | 16 | Basic Calculator (224) | Stack for parentheses |
+| DONE | 17 | Basic Calculator II (227) | Operator precedence |
+| DONE | 18 | Basic Calculator III (772) | Combined |
+| DONE | 19 | Number of Atoms (726) | Nested parsing |
+| DONE | 20 | Decode String (394) | Nested brackets |
+| DONE | 21 | Exclusive Time of Functions (636) | Call stack simulation |
 
 ---
 
 ## 4. Binary Search (20 problems)
 
 ### Standard Binary Search
-| # | Problem | Key Learning |
+| Status | # | Problem | Key Learning |
 |---|---------|--------------|
-| 1 | Search Insert Position (35) | Lower bound |
-| 2 | Find First and Last Position (34) | Lower + upper bound |
-| 3 | Search a 2D Matrix (74) | Flatten to 1D |
-| 4 | Search a 2D Matrix II (240) | Staircase search |
+| DONE | 1 | Search Insert Position (35) | Lower bound |
+| DONE | 2 | Find First and Last Position (34) | Lower + upper bound |
+| DONE | 3 | Search a 2D Matrix (74) | Flatten to 1D |
+| DONE | 4 | Search a 2D Matrix II (240) | Staircase search |
 
 ### Rotated Array
-| # | Problem | Key Learning |
+| Status | # | Problem | Key Learning |
 |---|---------|--------------|
-| 5 | Search in Rotated Sorted Array (33) | Find sorted half |
-| 6 | Search in Rotated Sorted Array II (81) | With duplicates |
-| 7 | Find Minimum in Rotated Sorted Array (153) | Find pivot |
-| 8 | Find Minimum in Rotated Sorted Array II (154) | With duplicates |
+| DONE | 5 | Search in Rotated Sorted Array (33) | Find sorted half |
+| DONE | 6 | Search in Rotated Sorted Array II (81) | With duplicates |
+| DONE | 7 | Find Minimum in Rotated Sorted Array (153) | Find pivot |
+| DONE | 8 | Find Minimum in Rotated Sorted Array II (154) | With duplicates |
 
 ### Binary Search on Answer
-| # | Problem | Key Learning |
+| Status | # | Problem | Key Learning |
 |---|---------|--------------|
-| 9 | Koko Eating Bananas (875) | Minimize maximum rate |
-| 10 | Capacity To Ship Packages (1011) | Minimize maximum capacity |
-| 11 | Split Array Largest Sum (410) | Minimize maximum sum |
-| 12 | Magnetic Force Between Two Balls (1552) | Maximize minimum distance |
-| 13 | Minimized Maximum of Products (2064) | Minimize maximum |
-| 14 | Minimum Time to Complete Trips (2187) | Time-based feasibility |
-| 15 | Minimum Speed to Arrive on Time (1870) | Floating point binary search |
+| DONE | 9 | Koko Eating Bananas (875) | Minimize maximum rate |
+| DONE | 10 | Capacity To Ship Packages (1011) | Minimize maximum capacity |
+| DONE | 11 | Split Array Largest Sum (410) | Minimize maximum sum |
+| DONE | 12 | Magnetic Force Between Two Balls (1552) | Maximize minimum distance |
+| DONE | 13 | Minimized Maximum of Products (2064) | Minimize maximum |
+| DONE | 14 | Minimum Time to Complete Trips (2187) | Time-based feasibility |
+| DONE | 15 | Minimum Speed to Arrive on Time (1870) | Floating point binary search |
 
 ### Kth Element
-| # | Problem | Key Learning |
+| Status | # | Problem | Key Learning |
 |---|---------|--------------|
-| 16 | Kth Smallest Element in a Sorted Matrix (378) | BS + counting |
-| 17 | Find K-th Smallest Pair Distance (719) | BS + two pointer count |
-| 18 | Kth Smallest Number in Multiplication Table (668) | BS + counting |
+| DONE | 16 | Kth Smallest Element in a Sorted Matrix (378) | BS + counting |
+| DONE | 17 | Find K-th Smallest Pair Distance (719) | BS + two pointer count |
+| DONE | 18 | Kth Smallest Number in Multiplication Table (668) | BS + counting |
 
 ### Advanced
-| # | Problem | Key Learning |
+| Status | # | Problem | Key Learning |
 |---|---------|--------------|
-| 19 | Median of Two Sorted Arrays (4) | Partition based BS |
-| 20 | Find in Mountain Array (1095) | Find peak + two BS |
+| DONE | 19 | Median of Two Sorted Arrays (4) | Partition based BS |
+| DONE | 20 | Find in Mountain Array (1095) | Find peak + two BS |
 
 ---
 
 ## Binary Search — Additional Variations
 
 ### Binary Search + Complex Feasibility Check
-| # | Problem | Key Learning |
+| Status | # | Problem | Key Learning |
 |---|---------|--------------|
-| 1 | Maximum Number of Tasks You Can Assign (2071) | Binary search + greedy + deque |
-| 2 | Minimum Time to Repair Cars (2594) | Multi-worker feasibility |
-| 3 | Maximum Running Time of N Computers (2141) | Sum-based feasibility |
-| 4 | Maximum Candies Allocated to K Children (2226) | Simple but good practice |
-| 5 | Cutting Ribbons (1891) | Maximize minimum |
-| 6 | Minimum Number of Days to Make m Bouquets (1482) | Consecutive constraint |
+| DONE | 1 | Maximum Number of Tasks You Can Assign (2071) | Binary search + greedy + deque |
+| DONE | 2 | Minimum Time to Repair Cars (2594) | Multi-worker feasibility |
+| DONE | 3 | Maximum Running Time of N Computers (2141) | Sum-based feasibility |
+| DONE | 4 | Maximum Candies Allocated to K Children (2226) | Simple but good practice |
+| DONE | 5 | Cutting Ribbons (1891) | Maximize minimum |
+| DONE | 6 | Minimum Number of Days to Make m Bouquets (1482) | Consecutive constraint |
 
 ### Binary Search + Data Structure
-| # | Problem | Key Learning |
+| Status | # | Problem | Key Learning |
 |---|---------|--------------|
-| 7 | Count of Range Sum (327) | Binary search in merge sort or BIT |
-| 8 | Longest Increasing Subsequence (300) | Binary search for O(n log n) |
-| 9 | Russian Doll Envelopes (354) | Sort + LIS with binary search |
-| 10 | Find Right Interval (436) | Binary search on sorted intervals |
+| DONE | 7 | Count of Range Sum (327) | Binary search in merge sort or BIT |
+| DONE | 8 | Longest Increasing Subsequence (300) | Binary search for O(n log n) |
+| DONE | 9 | Russian Doll Envelopes (354) | Sort + LIS with binary search |
+| DONE | 10 | Find Right Interval (436) | Binary search on sorted intervals |
 
 ### Binary Search on Strings
-| # | Problem | Key Learning |
+| Status | # | Problem | Key Learning |
 |---|---------|--------------|
-| 11 | Search Suggestions System (1268) | Binary search + trie hybrid |
-| 12 | Longest Duplicate Substring (1044) | Binary search + rolling hash |
-| 13 | Maximum Number of Removable Characters (1898) | Binary search on removals |
+| DONE | 11 | Search Suggestions System (1268) | Binary search + trie hybrid |
+| DONE | 12 | Longest Duplicate Substring (1044) | Binary search + rolling hash |
+| DONE | 13 | Maximum Number of Removable Characters (1898) | Binary search on removals |
 
 ### Interactive / Online Binary Search
-| # | Problem | Key Learning |
+| Status | # | Problem | Key Learning |
 |---|---------|--------------|
-| 14 | Guess Number Higher or Lower (374) | Basic interactive |
-| 15 | Find in Mountain Array (1095) | API-based search |
-| 16 | First Bad Version (278) | Minimize API calls |
+| DONE | 14 | Guess Number Higher or Lower (374) | Basic interactive |
+| DONE | 15 | Find in Mountain Array (1095) | API-based search |
+| DONE | 16 | First Bad Version (278) | Minimize API calls |
 
 ### Binary Search with Prefix Sum
-| # | Problem | Key Learning |
+| Status | # | Problem | Key Learning |
 |---|---------|--------------|
-| 17 | Random Pick with Weight (528) | Weighted random via prefix + BS |
-| 18 | Find the Longest Substring Containing Vowels in Even Counts (1371) | Bitmask + first occurrence |
-| 19 | Maximum Sum of 3 Non-Overlapping Subarrays (689) | Prefix + DP + BS reconstruction |
+| DONE | 17 | Random Pick with Weight (528) | Weighted random via prefix + BS |
+| DONE | 18 | Find the Longest Substring Containing Vowels in Even Counts (1371) | Bitmask + first occurrence |
+| DONE | 19 | Maximum Sum of 3 Non-Overlapping Subarrays (689) | Prefix + DP + BS reconstruction |
 
 ### Binary Search Edge Cases
-| # | Problem | Key Learning |
+| Status | # | Problem | Key Learning |
 |---|---------|--------------|
-| 20 | H-Index II (275) | Tricky condition |
-| 21 | Kth Missing Positive Number (1539) | Missing count calculation |
-| 22 | Sum of Mutated Array Closest to Target (1300) | Minimize absolute difference |
-| 23 | Minimum Speed to Arrive on Time (1870) | Floating point precision |
+| DONE | 20 | H-Index II (275) | Tricky condition |
+| DONE | 21 | Kth Missing Positive Number (1539) | Missing count calculation |
+| DONE | 22 | Sum of Mutated Array Closest to Target (1300) | Minimize absolute difference |
+| DONE | 23 | Minimum Speed to Arrive on Time (1870) | Floating point precision |
 
 ---
 
 ## 5. Linked List (15 problems)
 
 ### Reversal
-| # | Problem | Key Learning |
+| Status | # | Problem | Key Learning |
 |---|---------|--------------|
 | 1 | Reverse Linked List (206) | Iterative + recursive |
 | 2 | Reverse Linked List II (92) | Reverse portion |
@@ -311,7 +311,7 @@ This topic has distinct sub-patterns that each need practice.
 | 4 | Swap Nodes in Pairs (24) | Pair reversal |
 
 ### Two Pointers / Cycle
-| # | Problem | Key Learning |
+| Status | # | Problem | Key Learning |
 |---|---------|--------------|
 | 5 | Linked List Cycle II (142) | Floyd's with entry point |
 | 6 | Find the Duplicate Number (287) | Floyd's on array |
@@ -320,14 +320,14 @@ This topic has distinct sub-patterns that each need practice.
 | 9 | Reorder List (143) | Find middle + reverse + merge |
 
 ### Merge / Sort
-| # | Problem | Key Learning |
+| Status | # | Problem | Key Learning |
 |---|---------|--------------|
 | 10 | Merge Two Sorted Lists (21) | Basic merge |
 | 11 | Merge k Sorted Lists (23) | Heap or divide conquer |
 | 12 | Sort List (148) | Merge sort on linked list |
 
 ### Complex Manipulation
-| # | Problem | Key Learning |
+| Status | # | Problem | Key Learning |
 |---|---------|--------------|
 | 13 | Copy List with Random Pointer (138) | Clone with interleaving |
 | 14 | LRU Cache (146) | Doubly linked list + hashmap |
@@ -338,7 +338,7 @@ This topic has distinct sub-patterns that each need practice.
 ## 6. Trees — Traversal & Construction (18 problems)
 
 ### Basic Traversal
-| # | Problem | Key Learning |
+| Status | # | Problem | Key Learning |
 |---|---------|--------------|
 | 1 | Binary Tree Inorder Traversal (94) | Iterative with stack |
 | 2 | Binary Tree Level Order Traversal (102) | BFS template |
@@ -347,7 +347,7 @@ This topic has distinct sub-patterns that each need practice.
 | 5 | Boundary of Binary Tree (545) | Multiple traversals combined |
 
 ### Construction
-| # | Problem | Key Learning |
+| Status | # | Problem | Key Learning |
 |---|---------|--------------|
 | 6 | Construct Binary Tree from Preorder and Inorder (105) | Classic construction |
 | 7 | Construct Binary Tree from Inorder and Postorder (106) | Variation |
@@ -356,13 +356,13 @@ This topic has distinct sub-patterns that each need practice.
 | 10 | Serialize and Deserialize BST (449) | BST-specific optimization |
 
 ### Morris Traversal
-| # | Problem | Key Learning |
+| Status | # | Problem | Key Learning |
 |---|---------|--------------|
 | 11 | Recover Binary Search Tree (99) | Morris for O(1) space |
 | 12 | Binary Tree Inorder Morris | Know the technique |
 
 ### Path Problems
-| # | Problem | Key Learning |
+| Status | # | Problem | Key Learning |
 |---|---------|--------------|
 | 13 | Binary Tree Maximum Path Sum (124) | Global vs local return |
 | 14 | Path Sum III (437) | Prefix sum on tree |
@@ -370,7 +370,7 @@ This topic has distinct sub-patterns that each need practice.
 | 16 | Diameter of Binary Tree (543) | Simpler version of 124 |
 
 ### Advanced Structure
-| # | Problem | Key Learning |
+| Status | # | Problem | Key Learning |
 |---|---------|--------------|
 | 17 | Populating Next Right Pointers II (117) | Level linking O(1) space |
 | 18 | Flatten Binary Tree to Linked List (114) | In-place restructure |
@@ -379,7 +379,7 @@ This topic has distinct sub-patterns that each need practice.
 
 ## 7. Trees — BST Specific (10 problems)
 
-| # | Problem | Key Learning |
+| Status | # | Problem | Key Learning |
 |---|---------|--------------|
 | 1 | Validate Binary Search Tree (98) | Range validation |
 | 2 | Kth Smallest Element in BST (230) | Inorder property |
@@ -396,7 +396,7 @@ This topic has distinct sub-patterns that each need practice.
 
 ## 8. Trees — LCA & Ancestors (8 problems)
 
-| # | Problem | Key Learning |
+| Status | # | Problem | Key Learning |
 |---|---------|--------------|
 | 1 | Lowest Common Ancestor of Binary Tree (236) | Standard DFS |
 | 2 | Lowest Common Ancestor of BST (235) | BST optimization |
@@ -411,7 +411,7 @@ This topic has distinct sub-patterns that each need practice.
 
 ## 9. Trees — DP on Trees (12 problems)
 
-| # | Problem | Key Learning |
+| Status | # | Problem | Key Learning |
 |---|---------|--------------|
 | 1 | House Robber III (337) | Rob/not rob state |
 | 2 | Binary Tree Cameras (968) | 3 states: covered, has camera, not covered |
@@ -431,7 +431,7 @@ This topic has distinct sub-patterns that each need practice.
 ## 10. Graphs — BFS (16 problems)
 
 ### Basic BFS
-| # | Problem | Key Learning |
+| Status | # | Problem | Key Learning |
 |---|---------|--------------|
 | 1 | Number of Islands (200) | Grid BFS template |
 | 2 | Rotting Oranges (994) | Multi-source BFS |
@@ -439,7 +439,7 @@ This topic has distinct sub-patterns that each need practice.
 | 4 | Walls and Gates (286) | Multi-source, fill distances |
 
 ### Shortest Path Unweighted
-| # | Problem | Key Learning |
+| Status | # | Problem | Key Learning |
 |---|---------|--------------|
 | 5 | Word Ladder (127) | State transformation BFS |
 | 6 | Word Ladder II (126) | BFS + backtrack for all paths |
@@ -448,20 +448,20 @@ This topic has distinct sub-patterns that each need practice.
 | 9 | Shortest Path to Get All Keys (864) | BFS + bitmask state |
 
 ### 0-1 BFS
-| # | Problem | Key Learning |
+| Status | # | Problem | Key Learning |
 |---|---------|--------------|
 | 10 | Minimum Cost to Make at Least One Valid Path (1368) | 0-1 BFS with deque |
 | 11 | Minimum Obstacle Removal (2290) | 0-1 BFS |
 
 ### Multi-state BFS
-| # | Problem | Key Learning |
+| Status | # | Problem | Key Learning |
 |---|---------|--------------|
 | 12 | Shortest Path Visiting All Nodes (847) | BFS + bitmask |
 | 13 | Sliding Puzzle (773) | State as string BFS |
 | 14 | Open the Lock (752) | State transformation |
 
 ### Advanced BFS
-| # | Problem | Key Learning |
+| Status | # | Problem | Key Learning |
 |---|---------|--------------|
 | 15 | Bus Routes (815) | BFS on routes not stops |
 | 16 | Jump Game IV (1345) | BFS with pruning |
@@ -471,7 +471,7 @@ This topic has distinct sub-patterns that each need practice.
 ## 11. Graphs — DFS (14 problems)
 
 ### Grid DFS
-| # | Problem | Key Learning |
+| Status | # | Problem | Key Learning |
 |---|---------|--------------|
 | 1 | Pacific Atlantic Water Flow (417) | Reverse DFS from edges |
 | 2 | Surrounded Regions (130) | Border-connected components |
@@ -480,14 +480,14 @@ This topic has distinct sub-patterns that each need practice.
 | 5 | Number of Distinct Islands (694) | Serialize island shape |
 
 ### Cycle Detection
-| # | Problem | Key Learning |
+| Status | # | Problem | Key Learning |
 |---|---------|--------------|
 | 6 | Course Schedule (207) | Cycle in directed graph |
 | 7 | Course Schedule II (210) | Topological order |
 | 8 | Detect Cycles in 2D Grid (1559) | Grid cycle detection |
 
 ### DFS with State
-| # | Problem | Key Learning |
+| Status | # | Problem | Key Learning |
 |---|---------|--------------|
 | 9 | All Paths From Source to Target (797) | Path enumeration |
 | 10 | Clone Graph (133) | DFS with visited map |
@@ -495,7 +495,7 @@ This topic has distinct sub-patterns that each need practice.
 | 12 | Reconstruct Itinerary (332) | Eulerian path |
 
 ### Advanced DFS
-| # | Problem | Key Learning |
+| Status | # | Problem | Key Learning |
 |---|---------|--------------|
 | 13 | Redundant Connection (684) | Find cycle edge |
 | 14 | Redundant Connection II (685) | Directed graph, multiple cases |
@@ -504,7 +504,7 @@ This topic has distinct sub-patterns that each need practice.
 
 ## 12. Graphs — Topological Sort (10 problems)
 
-| # | Problem | Key Learning |
+| Status | # | Problem | Key Learning |
 |---|---------|--------------|
 | 1 | Course Schedule (207) | Basic cycle detection |
 | 2 | Course Schedule II (210) | Return the order |
@@ -522,7 +522,7 @@ This topic has distinct sub-patterns that each need practice.
 ## 13. Graphs — Shortest Path (12 problems)
 
 ### Dijkstra
-| # | Problem | Key Learning |
+| Status | # | Problem | Key Learning |
 |---|---------|--------------|
 | 1 | Network Delay Time (743) | Classic Dijkstra |
 | 2 | Path with Maximum Probability (1514) | Max probability (max heap) |
@@ -531,19 +531,19 @@ This topic has distinct sub-patterns that each need practice.
 | 5 | Minimum Cost to Reach Destination in Time (1928) | Dijkstra with constraint |
 
 ### Bellman-Ford
-| # | Problem | Key Learning |
+| Status | # | Problem | Key Learning |
 |---|---------|--------------|
 | 6 | Cheapest Flights Within K Stops (787) | BF with k iterations |
 | 7 | Negative Weight Cycle Detection | Know when to use |
 
 ### Floyd-Warshall
-| # | Problem | Key Learning |
+| Status | # | Problem | Key Learning |
 |---|---------|--------------|
 | 8 | Find the City (1334) | All pairs shortest path |
 | 9 | Course Schedule IV (1462) | Transitive closure |
 
 ### Advanced
-| # | Problem | Key Learning |
+| Status | # | Problem | Key Learning |
 |---|---------|--------------|
 | 10 | Shortest Path with Alternating Colors (1129) | Multi-state Dijkstra |
 | 11 | Number of Ways to Arrive at Destination (1976) | Dijkstra + count paths |
@@ -554,28 +554,28 @@ This topic has distinct sub-patterns that each need practice.
 ## 14. Graphs — Union Find (12 problems)
 
 ### Basic Operations
-| # | Problem | Key Learning |
+| Status | # | Problem | Key Learning |
 |---|---------|--------------|
 | 1 | Number of Provinces (547) | Basic union find |
 | 2 | Number of Connected Components (323) | Count components |
 | 3 | Redundant Connection (684) | Find cycle-causing edge |
 
 ### Union Find with Data
-| # | Problem | Key Learning |
+| Status | # | Problem | Key Learning |
 |---|---------|--------------|
 | 4 | Accounts Merge (721) | Track data per component |
 | 5 | Smallest String With Swaps (1202) | Sort within components |
 | 6 | Evaluate Division (399) | Weighted union find |
 
 ### Dynamic Connectivity
-| # | Problem | Key Learning |
+| Status | # | Problem | Key Learning |
 |---|---------|--------------|
 | 7 | Number of Operations to Make Network Connected (1319) | Count components + edges |
 | 8 | Satisfiability of Equality Equations (990) | Union + verify |
 | 9 | Graph Connectivity With Threshold (1627) | Factor-based union |
 
 ### Advanced
-| # | Problem | Key Learning |
+| Status | # | Problem | Key Learning |
 |---|---------|--------------|
 | 10 | Swim in Rising Water (778) | Union find solution |
 | 11 | Checking Existence of Edge Length Limited Paths (1697) | Offline + sort + union find |
@@ -586,7 +586,7 @@ This topic has distinct sub-patterns that each need practice.
 ## Union Find — Comprehensive Deep Dive
 
 ### Grid-Based Union Find
-| # | Problem | Key Learning |
+| Status | # | Problem | Key Learning |
 |---|---------|--------------|
 | 1 | Number of Islands II (305) | Dynamic island creation |
 | 2 | Regions Cut By Slashes (959) | Scale up grid 3x, creative mapping |
@@ -595,41 +595,41 @@ This topic has distinct sub-patterns that each need practice.
 | 5 | Bricks Falling When Hit (803) | **Reverse time** union find |
 
 ### Factor/Math Based Union Find
-| # | Problem | Key Learning |
+| Status | # | Problem | Key Learning |
 |---|---------|--------------|
 | 6 | Largest Component Size by Common Factor (952) | Union by prime factors |
 | 7 | Gcd Sort of an Array (1998) | Union if GCD > 1 |
 | 8 | Graph Connectivity With Threshold (1627) | Union multiples |
 
 ### String Union Find
-| # | Problem | Key Learning |
+| Status | # | Problem | Key Learning |
 |---|---------|--------------|
 | 9 | Lexicographically Smallest Equivalent String (1061) | Track min char per component |
 | 10 | Similar String Groups (839) | Union similar strings |
 | 11 | Groups of Strings (2157) | Edit distance 1 grouping |
 
 ### Union Find with Weights/Ratios
-| # | Problem | Key Learning |
+| Status | # | Problem | Key Learning |
 |---|---------|--------------|
 | 12 | Evaluate Division (399) | Weighted edges in union find |
 | 13 | Rank Transform of a Matrix (1632) | Union find + greedy ranking |
 
 ### Reverse Time Union Find
-| # | Problem | Key Learning |
+| Status | # | Problem | Key Learning |
 |---|---------|--------------|
 | 14 | Bricks Falling When Hit (803) | Process removals in reverse |
 | 15 | Minimize Malware Spread (924) | Try removing each node |
 | 16 | Minimize Malware Spread II (928) | Variation |
 
 ### Union Find with Constraints
-| # | Problem | Key Learning |
+| Status | # | Problem | Key Learning |
 |---|---------|--------------|
 | 17 | Process Restricted Friend Requests (2076) | Check before union |
 | 18 | Couples Holding Hands (765) | Cycle counting |
 | 19 | Minimize Hamming Distance After Swap Operations (1722) | Frequency per component |
 
 ### Advanced Union Find
-| # | Problem | Key Learning |
+| Status | # | Problem | Key Learning |
 |---|---------|--------------|
 | 20 | Remove Max Number of Edges to Keep Graph Fully Traversable (1579) | Two union finds (Alice/Bob) |
 | 21 | Checking Existence of Edge Length Limited Paths (1697) | Offline + sorted queries |
@@ -642,27 +642,27 @@ This topic has distinct sub-patterns that each need practice.
 ## 15. Graphs — Advanced Algorithms (10 problems)
 
 ### Tarjan's Algorithm
-| # | Problem | Key Learning |
+| Status | # | Problem | Key Learning |
 |---|---------|--------------|
 | 1 | Critical Connections in a Network (1192) | Find bridges |
 | 2 | Articulation Points | Find cut vertices |
 | 3 | Strongly Connected Components | Tarjan's SCC |
 
 ### MST (Minimum Spanning Tree)
-| # | Problem | Key Learning |
+| Status | # | Problem | Key Learning |
 |---|---------|--------------|
 | 4 | Min Cost to Connect All Points (1584) | Prim or Kruskal |
 | 5 | Connecting Cities With Minimum Cost (1135) | MST application |
 | 6 | Find Critical and Pseudo-Critical Edges (1489) | MST + edge analysis |
 
 ### Bipartite
-| # | Problem | Key Learning |
+| Status | # | Problem | Key Learning |
 |---|---------|--------------|
 | 7 | Is Graph Bipartite (785) | Two coloring |
 | 8 | Possible Bipartition (886) | Bipartite with dislikes |
 
 ### Eulerian Path
-| # | Problem | Key Learning |
+| Status | # | Problem | Key Learning |
 |---|---------|--------------|
 | 9 | Reconstruct Itinerary (332) | Hierholzer's algorithm |
 | 10 | Valid Arrangement of Pairs (2097) | Eulerian path on directed |
@@ -672,21 +672,21 @@ This topic has distinct sub-patterns that each need practice.
 ## Graphs — Additional Missing Topics
 
 ### Bidirectional BFS
-| # | Problem | Key Learning |
+| Status | # | Problem | Key Learning |
 |---|---------|--------------|
 | 1 | Word Ladder (127) | Meet in middle optimization |
 | 2 | Minimum Genetic Mutation (433) | Small state space |
 | 3 | Open the Lock (752) | Bidirectional from start and target |
 
 ### 0-1 BFS (Deque-based)
-| # | Problem | Key Learning |
+| Status | # | Problem | Key Learning |
 |---|---------|--------------|
 | 4 | Minimum Cost to Make at Least One Valid Path (1368) | 0 cost = front, 1 cost = back |
 | 5 | Minimum Obstacle Removal to Reach Corner (2290) | Same pattern |
 | 6 | Minimum Cost to Reach Destination in Time (1928) | BFS with pruning |
 
 ### BFS with Complex State
-| # | Problem | Key Learning |
+| Status | # | Problem | Key Learning |
 |---|---------|--------------|
 | 7 | Shortest Path in a Grid with Obstacles Elimination (1293) | State = (x, y, k remaining) |
 | 8 | Escape the Spreading Fire (2258) | Binary search + multi-source BFS |
@@ -694,7 +694,7 @@ This topic has distinct sub-patterns that each need practice.
 | 10 | Minimum Time to Visit a Cell In a Grid (2577) | Dijkstra with parity |
 
 ### Tree Algorithms
-| # | Problem | Key Learning |
+| Status | # | Problem | Key Learning |
 |---|---------|--------------|
 | 11 | Tree Diameter (1245) | Two BFS or DP |
 | 12 | Find Distance in a Binary Tree (1740) | LCA application |
@@ -703,19 +703,19 @@ This topic has distinct sub-patterns that each need practice.
 | 15 | Difference Between Maximum and Minimum Price Sum (2538) | Rerooting DP |
 
 ### Game Theory on Graphs
-| # | Problem | Key Learning |
+| Status | # | Problem | Key Learning |
 |---|---------|--------------|
 | 16 | Cat and Mouse (913) | BFS from terminal states |
 | 17 | Cat and Mouse II (1728) | State space game |
 
 ### Multi-Source/Sink Problems
-| # | Problem | Key Learning |
+| Status | # | Problem | Key Learning |
 |---|---------|--------------|
 | 18 | Minimum Weighted Subgraph With Required Paths (2203) | Meet in middle on graphs |
 | 19 | Reachable Nodes In Subdivided Graph (882) | Dijkstra with fractional edges |
 
 ### Strongly Connected Components
-| # | Problem | Key Learning |
+| Status | # | Problem | Key Learning |
 |---|---------|--------------|
 | 20 | Minimum Number of Days to Disconnect Island (1568) | Articulation point concept |
 | 21 | Critical Connections in a Network (1192) | Already have, but essential |
@@ -725,7 +725,7 @@ This topic has distinct sub-patterns that each need practice.
 ## 16. Backtracking (16 problems)
 
 ### Permutations & Combinations
-| # | Problem | Key Learning |
+| Status | # | Problem | Key Learning |
 |---|---------|--------------|
 | 1 | Permutations (46) | Basic permutation |
 | 2 | Permutations II (47) | With duplicates |
@@ -737,14 +737,14 @@ This topic has distinct sub-patterns that each need practice.
 | 8 | Subsets II (90) | With duplicates |
 
 ### Partitioning
-| # | Problem | Key Learning |
+| Status | # | Problem | Key Learning |
 |---|---------|--------------|
 | 9 | Palindrome Partitioning (131) | Partition into palindromes |
 | 10 | Restore IP Addresses (93) | Partition with constraints |
 | 11 | Partition to K Equal Sum Subsets (698) | K-way partition |
 
 ### Constraint Satisfaction
-| # | Problem | Key Learning |
+| Status | # | Problem | Key Learning |
 |---|---------|--------------|
 | 12 | N-Queens (51) | Classic CSP |
 | 13 | N-Queens II (52) | Count solutions |
@@ -757,7 +757,7 @@ This topic has distinct sub-patterns that each need practice.
 ## 17. DP — Linear (18 problems)
 
 ### Basic Linear
-| # | Problem | Key Learning |
+| Status | # | Problem | Key Learning |
 |---|---------|--------------|
 | 1 | House Robber (198) | Take/skip pattern |
 | 2 | House Robber II (213) | Circular array |
@@ -767,7 +767,7 @@ This topic has distinct sub-patterns that each need practice.
 | 6 | Best Time to Buy and Sell Stock (121) | Track minimum |
 
 ### Subsequence
-| # | Problem | Key Learning |
+| Status | # | Problem | Key Learning |
 |---|---------|--------------|
 | 7 | Longest Increasing Subsequence (300) | O(n²) and O(n log n) |
 | 8 | Number of Longest Increasing Subsequence (673) | Count LIS |
@@ -776,7 +776,7 @@ This topic has distinct sub-patterns that each need practice.
 | 11 | Russian Doll Envelopes (354) | 2D LIS |
 
 ### String Linear
-| # | Problem | Key Learning |
+| Status | # | Problem | Key Learning |
 |---|---------|--------------|
 | 12 | Decode Ways (91) | Counting paths |
 | 13 | Decode Ways II (639) | With wildcards |
@@ -785,7 +785,7 @@ This topic has distinct sub-patterns that each need practice.
 | 16 | Longest Valid Parentheses (32) | Stack or DP |
 
 ### Advanced Linear
-| # | Problem | Key Learning |
+| Status | # | Problem | Key Learning |
 |---|---------|--------------|
 | 17 | Maximum Sum Circular Subarray (918) | Kadane variant |
 | 18 | Best Sightseeing Pair (1014) | Decompose optimization |
@@ -795,7 +795,7 @@ This topic has distinct sub-patterns that each need practice.
 ## 18. DP — Knapsack (15 problems)
 
 ### 0/1 Knapsack
-| # | Problem | Key Learning |
+| Status | # | Problem | Key Learning |
 |---|---------|--------------|
 | 1 | Partition Equal Subset Sum (416) | Classic 0/1 |
 | 2 | Target Sum (494) | Count ways to reach target |
@@ -803,7 +803,7 @@ This topic has distinct sub-patterns that each need practice.
 | 4 | Ones and Zeroes (474) | 2D capacity |
 
 ### Unbounded Knapsack
-| # | Problem | Key Learning |
+| Status | # | Problem | Key Learning |
 |---|---------|--------------|
 | 5 | Coin Change (322) | Minimum coins |
 | 6 | Coin Change 2 (518) | Count combinations |
@@ -811,20 +811,20 @@ This topic has distinct sub-patterns that each need practice.
 | 8 | Integer Break (343) | Maximize product |
 
 ### Bounded Knapsack
-| # | Problem | Key Learning |
+| Status | # | Problem | Key Learning |
 |---|---------|--------------|
 | 9 | Combination Sum IV (377) | Permutations count |
 | 10 | Minimum Cost For Tickets (983) | Time-based knapsack |
 
 ### Multi-dimensional
-| # | Problem | Key Learning |
+| Status | # | Problem | Key Learning |
 |---|---------|--------------|
 | 11 | Profitable Schemes (879) | 3D: people, profit, crimes |
 | 12 | Tallest Billboard (956) | Difference as state |
 | 13 | Number of Ways to Earn Points (2585) | 2D with constraints |
 
 ### Advanced
-| # | Problem | Key Learning |
+| Status | # | Problem | Key Learning |
 |---|---------|--------------|
 | 14 | Maximum Value of K Coins From Piles (2218) | Piles as items |
 | 15 | Number of Ways to Form a Target String (1639) | Position + character |
@@ -834,7 +834,7 @@ This topic has distinct sub-patterns that each need practice.
 ## 19. DP — Two Sequences (12 problems)
 
 ### LCS Family
-| # | Problem | Key Learning |
+| Status | # | Problem | Key Learning |
 |---|---------|--------------|
 | 1 | Longest Common Subsequence (1143) | Classic LCS |
 | 2 | Longest Common Substring | Variation (not on LC) |
@@ -844,14 +844,14 @@ This topic has distinct sub-patterns that each need practice.
 | 6 | Max Dot Product of Two Subsequences (1458) | LCS structure, different relation |
 
 ### Edit Distance Family
-| # | Problem | Key Learning |
+| Status | # | Problem | Key Learning |
 |---|---------|--------------|
 | 7 | Edit Distance (72) | Classic |
 | 8 | One Edit Distance (161) | O(n) check |
 | 9 | Distinct Subsequences (115) | Count ways |
 
 ### Matching
-| # | Problem | Key Learning |
+| Status | # | Problem | Key Learning |
 |---|---------|--------------|
 | 10 | Wildcard Matching (44) | * and ? matching |
 | 11 | Regular Expression Matching (10) | * means zero or more of preceding |
@@ -862,7 +862,7 @@ This topic has distinct sub-patterns that each need practice.
 ## 20. DP — Interval (12 problems)
 
 ### Basic Interval
-| # | Problem | Key Learning |
+| Status | # | Problem | Key Learning |
 |---|---------|--------------|
 | 1 | Longest Palindromic Subsequence (516) | Classic interval |
 | 2 | Longest Palindromic Substring (5) | Expand or DP |
@@ -870,14 +870,14 @@ This topic has distinct sub-patterns that each need practice.
 | 4 | Palindrome Partitioning II (132) | Minimum cuts |
 
 ### Matrix Chain Style
-| # | Problem | Key Learning |
+| Status | # | Problem | Key Learning |
 |---|---------|--------------|
 | 5 | Burst Balloons (312) | Add boundary trick |
 | 6 | Minimum Cost to Merge Stones (1000) | Merge with constraint |
 | 7 | Minimum Score Triangulation (1039) | Polygon triangulation |
 
 ### Advanced Interval
-| # | Problem | Key Learning |
+| Status | # | Problem | Key Learning |
 |---|---------|--------------|
 | 8 | Strange Printer (664) | Print optimization |
 | 9 | Remove Boxes (546) | 3D interval DP |
@@ -890,7 +890,7 @@ This topic has distinct sub-patterns that each need practice.
 ## 21. DP — State Machine (14 problems)
 
 ### Stock Problems
-| # | Problem | Key Learning |
+| Status | # | Problem | Key Learning |
 |---|---------|--------------|
 | 1 | Best Time to Buy and Sell Stock II (122) | Unlimited transactions |
 | 2 | Best Time to Buy and Sell Stock III (123) | At most 2 transactions |
@@ -899,7 +899,7 @@ This topic has distinct sub-patterns that each need practice.
 | 5 | Best Time to Buy and Sell Stock with Transaction Fee (714) | Fee per transaction |
 
 ### Paint/Color Problems
-| # | Problem | Key Learning |
+| Status | # | Problem | Key Learning |
 |---|---------|--------------|
 | 6 | Paint House (256) | 3 colors, adjacent different |
 | 7 | Paint House II (265) | K colors |
@@ -907,7 +907,7 @@ This topic has distinct sub-patterns that each need practice.
 | 9 | Paint Fence (276) | Same/different counting |
 
 ### Other State Machines
-| # | Problem | Key Learning |
+| Status | # | Problem | Key Learning |
 |---|---------|--------------|
 | 10 | Flip String to Monotone Increasing (926) | 0/1 state |
 | 11 | Student Attendance Record II (552) | A count + L streak |
@@ -920,7 +920,7 @@ This topic has distinct sub-patterns that each need practice.
 ## 22. DP — Bitmask (16 problems)
 
 ### Basic Subset DP
-| # | Problem | Key Learning |
+| Status | # | Problem | Key Learning |
 |---|---------|--------------|
 | 1 | Partition to K Equal Sum Subsets (698) | Subset enumeration |
 | 2 | Matchsticks to Square (473) | 4 equal subsets |
@@ -928,28 +928,28 @@ This topic has distinct sub-patterns that each need practice.
 | 4 | Minimum Number of Work Sessions (1986) | Subset DP |
 
 ### Path + Bitmask
-| # | Problem | Key Learning |
+| Status | # | Problem | Key Learning |
 |---|---------|--------------|
 | 5 | Shortest Path Visiting All Nodes (847) | BFS + bitmask |
 | 6 | Find Shortest Superstring (943) | TSP variant |
 | 7 | Parallel Courses II (1494) | Topo + bitmask |
 
 ### Grid + Bitmask (Profile DP)
-| # | Problem | Key Learning |
+| Status | # | Problem | Key Learning |
 |---|---------|--------------|
 | 8 | Maximum Students Taking Exam (1349) | Row bitmask |
 | 9 | Minimum Cost to Connect Two Groups (1595) | Two groups bitmask |
 | 10 | Number of Ways to Build House (2320) | Profile DP |
 
 ### Subset Sum/Count
-| # | Problem | Key Learning |
+| Status | # | Problem | Key Learning |
 |---|---------|--------------|
 | 11 | Can I Win (464) | Game with bitmask |
 | 12 | Stickers to Spell Word (691) | Bitmask + memoization |
 | 13 | Beautiful Arrangement (526) | Permutation counting |
 
 ### Advanced Bitmask
-| # | Problem | Key Learning |
+| Status | # | Problem | Key Learning |
 |---|---------|--------------|
 | 14 | Maximum AND Sum of Array (2172) | Assignment to slots |
 | 15 | Smallest Sufficient Team (1125) | Minimum subset cover |
@@ -959,7 +959,7 @@ This topic has distinct sub-patterns that each need practice.
 
 ## 23. DP — Digit DP (8 problems)
 
-| # | Problem | Key Learning |
+| Status | # | Problem | Key Learning |
 |---|---------|--------------|
 | 1 | Numbers At Most N Given Digit Set (902) | Basic digit DP |
 | 2 | Count of Integers (2719) | Digit DP template |
@@ -975,7 +975,7 @@ This topic has distinct sub-patterns that each need practice.
 ## 24. Greedy (18 problems)
 
 ### Interval Scheduling
-| # | Problem | Key Learning |
+| Status | # | Problem | Key Learning |
 |---|---------|--------------|
 | 1 | Non-overlapping Intervals (435) | Maximum intervals |
 | 2 | Minimum Number of Arrows (452) | Merge overlapping |
@@ -984,7 +984,7 @@ This topic has distinct sub-patterns that each need practice.
 | 5 | Merge Intervals (56) | Standard merge |
 
 ### Array Greedy
-| # | Problem | Key Learning |
+| Status | # | Problem | Key Learning |
 |---|---------|--------------|
 | 6 | Jump Game (55) | Can reach end |
 | 7 | Jump Game II (45) | Minimum jumps (BFS-like) |
@@ -993,7 +993,7 @@ This topic has distinct sub-patterns that each need practice.
 | 10 | Patching Array (330) | Non-obvious greedy |
 
 ### Two Heaps / Scheduling
-| # | Problem | Key Learning |
+| Status | # | Problem | Key Learning |
 |---|---------|--------------|
 | 11 | Task Scheduler (621) | Frequency-based greedy |
 | 12 | IPO (502) | Two heaps |
@@ -1001,13 +1001,13 @@ This topic has distinct sub-patterns that each need practice.
 | 14 | Single-Threaded CPU (1834) | Sort + heap |
 
 ### String Greedy
-| # | Problem | Key Learning |
+| Status | # | Problem | Key Learning |
 |---|---------|--------------|
 | 15 | Reorganize String (767) | Greedy placement |
 | 16 | Smallest Subsequence of Distinct Characters (1081) | Monotonic + greedy |
 
 ### Advanced Greedy
-| # | Problem | Key Learning |
+| Status | # | Problem | Key Learning |
 |---|---------|--------------|
 | 17 | Minimum Number of Refueling Stops (871) | Heap greedy |
 | 18 | Maximum Performance of a Team (1383) | Sort + heap |
@@ -1017,7 +1017,7 @@ This topic has distinct sub-patterns that each need practice.
 ## DP — Additional Missing Topics
 
 ### DP with Monotonic Queue Optimization
-| # | Problem | Key Learning |
+| Status | # | Problem | Key Learning |
 |---|---------|--------------|
 | 1 | Constrained Subsequence Sum (1425) | Deque for sliding max |
 | 2 | Jump Game VI (1696) | Same pattern |
@@ -1026,7 +1026,7 @@ This topic has distinct sub-patterns that each need practice.
 | 5 | Maximum Number of Books You Can Take (2355) | Stack + DP |
 
 ### Probability / Expected Value DP
-| # | Problem | Key Learning |
+| Status | # | Problem | Key Learning |
 |---|---------|--------------|
 | 6 | Knight Probability in Chessboard (688) | Grid probability |
 | 7 | Soup Servings (808) | Memoization with pruning |
@@ -1035,7 +1035,7 @@ This topic has distinct sub-patterns that each need practice.
 | 10 | Probability of a Two Boxes Having Same Number of Balls (1467) | Complex counting |
 
 ### Game Theory DP
-| # | Problem | Key Learning |
+| Status | # | Problem | Key Learning |
 |---|---------|--------------|
 | 11 | Stone Game (877) | Optimal play |
 | 12 | Stone Game II (1140) | Variable take |
@@ -1045,7 +1045,7 @@ This topic has distinct sub-patterns that each need practice.
 | 16 | Flip Game II (294) | Memoized game |
 
 ### Matrix Exponentiation DP
-| # | Problem | Key Learning |
+| Status | # | Problem | Key Learning |
 |---|---------|--------------|
 | 17 | Knight Dialer (935) | State transitions as matrix |
 | 18 | Domino and Tromino Tiling (790) | Recurrence to matrix |
@@ -1054,7 +1054,7 @@ This topic has distinct sub-patterns that each need practice.
 | 21 | Student Attendance Record II (552) | Already have, matrix speedup possible |
 
 ### SOS DP (Sum over Subsets)
-| # | Problem | Key Learning |
+| Status | # | Problem | Key Learning |
 |---|---------|--------------|
 | 22 | Count Number of Maximum Bitwise-OR Subsets (2044) | Basic SOS |
 | 23 | Closest Subsequence Sum (1755) | Meet in middle + SOS |
@@ -1062,7 +1062,7 @@ This topic has distinct sub-patterns that each need practice.
 | 25 | Find XOR Sum of All Pairs Bitwise AND (1835) | Bit manipulation |
 
 ### DP on Trees (Additional)
-| # | Problem | Key Learning |
+| Status | # | Problem | Key Learning |
 |---|---------|--------------|
 | 26 | Longest ZigZag Path in Binary Tree (1372) | Direction state |
 | 27 | Maximum Sum BST in Binary Tree (1373) | Validate + compute |
@@ -1071,7 +1071,7 @@ This topic has distinct sub-patterns that each need practice.
 | 30 | Collect Coins in a Tree (2603) | Topological peel + DP |
 
 ### Advanced Interval DP
-| # | Problem | Key Learning |
+| Status | # | Problem | Key Learning |
 |---|---------|--------------|
 | 31 | Minimum Cost to Cut a Stick (1547) | Classic interval |
 | 32 | Stone Game VII (1690) | Remove-based interval |
@@ -1079,7 +1079,7 @@ This topic has distinct sub-patterns that each need practice.
 | 34 | Minimum Cost to Merge Stones (1000) | Already have, but essential |
 
 ### Advanced Linear DP
-| # | Problem | Key Learning |
+| Status | # | Problem | Key Learning |
 |---|---------|--------------|
 | 35 | Count Different Palindromic Subsequences (730) | 4 chars, complex counting |
 | 36 | Minimum Difficulty of a Job Schedule (1335) | Partition DP |
@@ -1089,7 +1089,7 @@ This topic has distinct sub-patterns that each need practice.
 | 40 | Number of People Aware of a Secret (2327) | Range-based spreading |
 
 ### Profile DP / Broken Profile
-| # | Problem | Key Learning |
+| Status | # | Problem | Key Learning |
 |---|---------|--------------|
 | 41 | Domino and Tromino Tiling (790) | Simple profile |
 | 42 | Number of Ways to Build House of Cards (2189) | Profile DP |
@@ -1099,7 +1099,7 @@ This topic has distinct sub-patterns that each need practice.
 ## 25. Heap / Priority Queue (14 problems)
 
 ### Top K / Kth Element
-| # | Problem | Key Learning |
+| Status | # | Problem | Key Learning |
 |---|---------|--------------|
 | 1 | Kth Largest Element in Array (215) | Quickselect or heap |
 | 2 | Top K Frequent Elements (347) | Heap or bucket sort |
@@ -1107,21 +1107,21 @@ This topic has distinct sub-patterns that each need practice.
 | 4 | K Closest Points to Origin (973) | Max heap of size k |
 
 ### Two Heaps
-| # | Problem | Key Learning |
+| Status | # | Problem | Key Learning |
 |---|---------|--------------|
 | 5 | Find Median from Data Stream (295) | Classic two heaps |
 | 6 | Sliding Window Median (480) | Two heaps + lazy deletion |
 | 7 | IPO (502) | Two heaps for selection |
 
 ### Merge Streams
-| # | Problem | Key Learning |
+| Status | # | Problem | Key Learning |
 |---|---------|--------------|
 | 8 | Merge k Sorted Lists (23) | K-way merge |
 | 9 | Smallest Range Covering Elements (632) | K-way with window |
 | 10 | Find K Pairs with Smallest Sums (373) | BFS-like with heap |
 
 ### Advanced Heap
-| # | Problem | Key Learning |
+| Status | # | Problem | Key Learning |
 |---|---------|--------------|
 | 11 | Trapping Rain Water II (407) | 2D BFS + min heap |
 | 12 | Swim in Rising Water (778) | Dijkstra-like |
@@ -1133,14 +1133,14 @@ This topic has distinct sub-patterns that each need practice.
 ## Heap — Additional Variations
 
 ### Lazy Deletion Heap
-| # | Problem | Key Learning |
+| Status | # | Problem | Key Learning |
 |---|---------|--------------|
 | 1 | Sliding Window Median (480) | Two heaps + lazy deletion |
 | 2 | The Skyline Problem (218) | Heap + lazy removal |
 | 3 | Design a Number Container System (2349) | Track validity |
 
 ### Simulation with Heap
-| # | Problem | Key Learning |
+| Status | # | Problem | Key Learning |
 |---|---------|--------------|
 | 4 | Meeting Rooms III (2402) | Room assignment simulation |
 | 5 | Process Tasks Using Servers (1882) | Available + busy heaps |
@@ -1148,7 +1148,7 @@ This topic has distinct sub-patterns that each need practice.
 | 7 | Seat Reservation Manager (1845) | Min available seat |
 
 ### Greedy + Heap
-| # | Problem | Key Learning |
+| Status | # | Problem | Key Learning |
 |---|---------|--------------|
 | 8 | Minimum Cost to Hire K Workers (857) | Ratio sorting + heap |
 | 9 | Maximum Subsequence Score (2542) | Sort + maintain k elements |
@@ -1157,7 +1157,7 @@ This topic has distinct sub-patterns that each need practice.
 | 12 | Longest Happy String (1405) | Greedy character placement |
 
 ### Heap for Optimization
-| # | Problem | Key Learning |
+| Status | # | Problem | Key Learning |
 |---|---------|--------------|
 | 13 | Minimize Deviation in Array (1675) | Normalize then min heap |
 | 14 | Minimum Operations to Halve Array Sum (2208) | Always halve maximum |
@@ -1166,7 +1166,7 @@ This topic has distinct sub-patterns that each need practice.
 | 17 | Maximal Score After Applying K Operations (2530) | Ceil division |
 
 ### Multi-Heap Patterns
-| # | Problem | Key Learning |
+| Status | # | Problem | Key Learning |
 |---|---------|--------------|
 | 18 | Total Cost to Hire K Workers (2462) | Two heaps from ends |
 | 19 | Find Score of an Array After Marking All Elements (2593) | Heap with marking |
@@ -1177,7 +1177,7 @@ This topic has distinct sub-patterns that each need practice.
 ## 26. Trie (10 problems)
 
 ### Basic Trie Operations
-| # | Problem | Key Learning |
+| Status | # | Problem | Key Learning |
 |---|---------|--------------|
 | 1 | Implement Trie (208) | Basic implementation |
 | 2 | Design Add and Search Words (211) | Wildcard search |
@@ -1185,19 +1185,19 @@ This topic has distinct sub-patterns that each need practice.
 | 4 | Map Sum Pairs (677) | Trie with values |
 
 ### Trie + Backtracking
-| # | Problem | Key Learning |
+| Status | # | Problem | Key Learning |
 |---|---------|--------------|
 | 5 | Word Search II (212) | Board search with trie |
 | 6 | Concatenated Words (472) | Word composition |
 
 ### Bitwise Trie
-| # | Problem | Key Learning |
+| Status | # | Problem | Key Learning |
 |---|---------|--------------|
 | 7 | Maximum XOR of Two Numbers (421) | XOR trie |
 | 8 | Maximum XOR With Element From Array (1707) | Offline + sorted queries |
 
 ### Advanced Trie
-| # | Problem | Key Learning |
+| Status | # | Problem | Key Learning |
 |---|---------|--------------|
 | 9 | Palindrome Pairs (336) | Reverse lookup |
 | 10 | Design Search Autocomplete (642) | Trie + ranking |
@@ -1207,13 +1207,13 @@ This topic has distinct sub-patterns that each need practice.
 ## 27. Segment Tree / BIT (14 problems)
 
 ### Basic Range Queries
-| # | Problem | Key Learning |
+| Status | # | Problem | Key Learning |
 |---|---------|--------------|
 | 1 | Range Sum Query - Mutable (307) | Basic segment tree or BIT |
 | 2 | Range Sum Query 2D - Mutable (308) | 2D BIT |
 
 ### Inversion Counting
-| # | Problem | Key Learning |
+| Status | # | Problem | Key Learning |
 |---|---------|--------------|
 | 3 | Count of Smaller Numbers After Self (315) | BIT or merge sort |
 | 4 | Reverse Pairs (493) | Modified merge sort or BIT |
@@ -1221,20 +1221,20 @@ This topic has distinct sub-patterns that each need practice.
 | 6 | Create Sorted Array Through Instructions (1649) | BIT for inversions |
 
 ### Coordinate Compression
-| # | Problem | Key Learning |
+| Status | # | Problem | Key Learning |
 |---|---------|--------------|
 | 7 | Falling Squares (699) | Segment tree + compression |
 | 8 | My Calendar I, II, III (729, 731, 732) | Segment tree or sweep |
 | 9 | Rectangle Area II (850) | Sweep line + segment tree |
 
 ### Lazy Propagation
-| # | Problem | Key Learning |
+| Status | # | Problem | Key Learning |
 |---|---------|--------------|
 | 10 | Range Module (715) | Segment tree with lazy |
 | 11 | Amount of New Area Painted Each Day (2158) | Interval painting |
 
 ### Advanced
-| # | Problem | Key Learning |
+| Status | # | Problem | Key Learning |
 |---|---------|--------------|
 | 12 | Longest Increasing Subsequence II (2407) | Segment tree for range max |
 | 13 | Count Good Triplets in an Array (2179) | Two BITs |
@@ -1245,33 +1245,33 @@ This topic has distinct sub-patterns that each need practice.
 ## 28. String Algorithms (12 problems)
 
 ### KMP / Pattern Matching
-| # | Problem | Key Learning |
+| Status | # | Problem | Key Learning |
 |---|---------|--------------|
 | 1 | Implement strStr (28) | KMP template |
 | 2 | Repeated Substring Pattern (459) | KMP failure function |
 | 3 | Shortest Palindrome (214) | KMP for palindrome |
 
 ### Z-Function
-| # | Problem | Key Learning |
+| Status | # | Problem | Key Learning |
 |---|---------|--------------|
 | 4 | Z-Algorithm Template | Know the technique |
 | 5 | Sum of Scores of Built Strings (2223) | Z-function application |
 
 ### Rolling Hash (Rabin-Karp)
-| # | Problem | Key Learning |
+| Status | # | Problem | Key Learning |
 |---|---------|--------------|
 | 6 | Longest Duplicate Substring (1044) | Binary search + rolling hash |
 | 7 | Distinct Echo Substrings (1316) | Rolling hash counting |
 | 8 | Longest Happy Prefix (1392) | KMP or rolling hash |
 
 ### Manacher's Algorithm
-| # | Problem | Key Learning |
+| Status | # | Problem | Key Learning |
 |---|---------|--------------|
 | 9 | Longest Palindromic Substring (5) | Manacher's O(n) |
 | 10 | Palindromic Substrings (647) | Manacher's application |
 
 ### Suffix Array / Advanced
-| # | Problem | Key Learning |
+| Status | # | Problem | Key Learning |
 |---|---------|--------------|
 | 11 | Last Substring in Lexicographical Order (1163) | Suffix array or two pointers |
 | 12 | Number of Distinct Substrings (1698) | Suffix array + LCP |
@@ -1281,7 +1281,7 @@ This topic has distinct sub-patterns that each need practice.
 ## 29. Bit Manipulation (10 problems)
 
 ### Basic Techniques
-| # | Problem | Key Learning |
+| Status | # | Problem | Key Learning |
 |---|---------|--------------|
 | 1 | Single Number (136) | XOR property |
 | 2 | Single Number II (137) | Bit counting / state machine |
@@ -1289,20 +1289,20 @@ This topic has distinct sub-patterns that each need practice.
 | 4 | Counting Bits (338) | DP with bits |
 
 ### Bit Construction
-| # | Problem | Key Learning |
+| Status | # | Problem | Key Learning |
 |---|---------|--------------|
 | 5 | Maximum XOR of Two Numbers (421) | Greedy bit by bit |
 | 6 | Maximum AND Sum of Array (2172) | Bitmask DP |
 | 7 | Bitwise AND of Numbers Range (201) | Common prefix |
 
 ### Subset Enumeration
-| # | Problem | Key Learning |
+| Status | # | Problem | Key Learning |
 |---|---------|--------------|
 | 8 | Subsets (78) | Bit enumeration |
 | 9 | Sum of All Subset XOR Totals (1863) | Contribution technique |
 
 ### Advanced
-| # | Problem | Key Learning |
+| Status | # | Problem | Key Learning |
 |---|---------|--------------|
 | 10 | Total Hamming Distance (477) | Bit position counting |
 
@@ -1311,7 +1311,7 @@ This topic has distinct sub-patterns that each need practice.
 ## 30. Math & Geometry (12 problems)
 
 ### Math
-| # | Problem | Key Learning |
+| Status | # | Problem | Key Learning |
 |---|---------|--------------|
 | 1 | Pow(x, n) (50) | Binary exponentiation |
 | 2 | Count Primes (204) | Sieve of Eratosthenes |
@@ -1321,7 +1321,7 @@ This topic has distinct sub-patterns that each need practice.
 | 6 | Perfect Rectangle (391) | Corner counting + area |
 
 ### Geometry
-| # | Problem | Key Learning |
+| Status | # | Problem | Key Learning |
 |---|---------|--------------|
 | 7 | Max Points on a Line (149) | GCD for slope |
 | 8 | Erect the Fence (587) | Convex hull |
@@ -1329,7 +1329,7 @@ This topic has distinct sub-patterns that each need practice.
 | 10 | Rectangle Area II (850) | Sweep line |
 
 ### Number Theory
-| # | Problem | Key Learning |
+| Status | # | Problem | Key Learning |
 |---|---------|--------------|
 | 11 | Greatest Common Divisor of Strings (1071) | GCD application |
 | 12 | X of a Kind in a Deck of Cards (914) | GCD of frequencies |
@@ -1401,7 +1401,7 @@ These are the problems that separate good candidates from great ones. Each requi
 
 ## Binary Search + Greedy
 
-| # | Problem | Techniques | Key Insight |
+| Status | # | Problem | Techniques | Key Insight |
 |---|---------|------------|-------------|
 | 1 | Split Array Largest Sum (410) | BS on answer + greedy partition | Check if can split with max sum ≤ mid |
 | 2 | Capacity To Ship Packages (1011) | BS on answer + greedy assign | Same pattern |
@@ -1416,7 +1416,7 @@ These are the problems that separate good candidates from great ones. Each requi
 
 ## Binary Search + DP
 
-| # | Problem | Techniques | Key Insight |
+| Status | # | Problem | Techniques | Key Insight |
 |---|---------|------------|-------------|
 | 1 | Longest Increasing Subsequence (300) | DP + BS for O(n log n) | Patience sorting |
 | 2 | Russian Doll Envelopes (354) | Sort + LIS with BS | 2D to 1D reduction |
@@ -1431,7 +1431,7 @@ These are the problems that separate good candidates from great ones. Each requi
 
 ## Binary Search + Graph (BFS/DFS)
 
-| # | Problem | Techniques | Key Insight |
+| Status | # | Problem | Techniques | Key Insight |
 |---|---------|------------|-------------|
 | 1 | Swim in Rising Water (778) | BS on answer + BFS/DFS check | Can reach with max ≤ mid? |
 | 2 | Path With Minimum Effort (1631) | BS + BFS or Dijkstra | Minimize max edge |
@@ -1445,7 +1445,7 @@ These are the problems that separate good candidates from great ones. Each requi
 
 ## Sliding Window + Monotonic Deque
 
-| # | Problem | Techniques | Key Insight |
+| Status | # | Problem | Techniques | Key Insight |
 |---|---------|------------|-------------|
 | 1 | Sliding Window Maximum (239) | Fixed window + max deque | Classic combination |
 | 2 | Shortest Subarray with Sum at Least K (862) | Prefix + monotonic deque | Handles negatives |
@@ -1460,7 +1460,7 @@ These are the problems that separate good candidates from great ones. Each requi
 
 ## Prefix Sum + Monotonic Stack
 
-| # | Problem | Techniques | Key Insight |
+| Status | # | Problem | Techniques | Key Insight |
 |---|---------|------------|-------------|
 | 1 | Sum of Subarray Minimums (907) | Stack + contribution counting | Each element's range |
 | 2 | Sum of Subarray Ranges (2104) | Stack for min + stack for max | Difference of contributions |
@@ -1474,7 +1474,7 @@ These are the problems that separate good candidates from great ones. Each requi
 
 ## Tree DP + DFS
 
-| # | Problem | Techniques | Key Insight |
+| Status | # | Problem | Techniques | Key Insight |
 |---|---------|------------|-------------|
 | 1 | Binary Tree Maximum Path Sum (124) | DFS + track global vs return | Classic split |
 | 2 | Binary Tree Cameras (968) | Post-order + 3 states | Greedy on tree |
@@ -1491,7 +1491,7 @@ These are the problems that separate good candidates from great ones. Each requi
 
 ## Graph + DP
 
-| # | Problem | Techniques | Key Insight |
+| Status | # | Problem | Techniques | Key Insight |
 |---|---------|------------|-------------|
 | 1 | Longest Increasing Path in Matrix (329) | DFS + memoization | Topological nature |
 | 2 | Cheapest Flights Within K Stops (787) | BFS/Bellman-Ford + state | (node, stops) state |
@@ -1508,7 +1508,7 @@ These are the problems that separate good candidates from great ones. Each requi
 
 ## Graph + Union Find
 
-| # | Problem | Techniques | Key Insight |
+| Status | # | Problem | Techniques | Key Insight |
 |---|---------|------------|-------------|
 | 1 | Accounts Merge (721) | Union Find + DFS/BFS for result | Group then collect |
 | 2 | Redundant Connection II (685) | Union Find + directed edge cases | Two candidates scenario |
@@ -1523,7 +1523,7 @@ These are the problems that separate good candidates from great ones. Each requi
 
 ## Heap + Greedy
 
-| # | Problem | Techniques | Key Insight |
+| Status | # | Problem | Techniques | Key Insight |
 |---|---------|------------|-------------|
 | 1 | IPO (502) | Two heaps + unlock mechanism | Capital threshold |
 | 2 | Course Schedule III (630) | Sort + max heap for replacement | Swap if better |
@@ -1540,7 +1540,7 @@ These are the problems that separate good candidates from great ones. Each requi
 
 ## Heap + Graph (Dijkstra Variants)
 
-| # | Problem | Techniques | Key Insight |
+| Status | # | Problem | Techniques | Key Insight |
 |---|---------|------------|-------------|
 | 1 | Network Delay Time (743) | Standard Dijkstra | Foundation |
 | 2 | Path With Maximum Probability (1514) | Max-heap Dijkstra | Flip to max |
@@ -1555,7 +1555,7 @@ These are the problems that separate good candidates from great ones. Each requi
 
 ## Trie + Backtracking/DFS
 
-| # | Problem | Techniques | Key Insight |
+| Status | # | Problem | Techniques | Key Insight |
 |---|---------|------------|-------------|
 | 1 | Word Search II (212) | Trie + grid DFS | Prune with trie |
 | 2 | Palindrome Pairs (336) | Trie + reverse lookup | Check prefix/suffix |
@@ -1569,7 +1569,7 @@ These are the problems that separate good candidates from great ones. Each requi
 
 ## Segment Tree/BIT + DP
 
-| # | Problem | Techniques | Key Insight |
+| Status | # | Problem | Techniques | Key Insight |
 |---|---------|------------|-------------|
 | 1 | Count of Smaller Numbers After Self (315) | BIT/merge sort + inversion | Count inversions |
 | 2 | Reverse Pairs (493) | Merge sort + counting | Modified inversion |
@@ -1584,7 +1584,7 @@ These are the problems that separate good candidates from great ones. Each requi
 
 ## Bitmask + BFS/Graph
 
-| # | Problem | Techniques | Key Insight |
+| Status | # | Problem | Techniques | Key Insight |
 |---|---------|------------|-------------|
 | 1 | Shortest Path Visiting All Nodes (847) | BFS + bitmask state | (node, visited) |
 | 2 | Shortest Path to Get All Keys (864) | BFS + key bitmask | (position, keys) |
@@ -1598,7 +1598,7 @@ These are the problems that separate good candidates from great ones. Each requi
 
 ## Stack + DP
 
-| # | Problem | Techniques | Key Insight |
+| Status | # | Problem | Techniques | Key Insight |
 |---|---------|------------|-------------|
 | 1 | Longest Valid Parentheses (32) | Stack OR DP | Track valid lengths |
 | 2 | Maximal Rectangle (85) | Stack (histogram) per row | Build row by row |
@@ -1612,7 +1612,7 @@ These are the problems that separate good candidates from great ones. Each requi
 
 ## Two Pointers + Binary Search
 
-| # | Problem | Techniques | Key Insight |
+| Status | # | Problem | Techniques | Key Insight |
 |---|---------|------------|-------------|
 | 1 | 3Sum Closest (16) | Sort + two pointers + track best | Minimize difference |
 | 2 | Find K-th Smallest Pair Distance (719) | BS on answer + two pointer count | Count pairs ≤ mid |
@@ -1626,7 +1626,7 @@ These are the problems that separate good candidates from great ones. Each requi
 
 ## LCA + Path Queries (Binary Lifting)
 
-| # | Problem | Techniques | Key Insight |
+| Status | # | Problem | Techniques | Key Insight |
 |---|---------|------------|-------------|
 | 1 | Kth Ancestor of a Tree Node (1483) | Binary lifting | 2^k jumps |
 | 2 | Lowest Common Ancestor of Binary Tree (236) | DFS or binary lifting | Foundation |
@@ -1640,7 +1640,7 @@ These are the problems that separate good candidates from great ones. Each requi
 
 ## Meet in the Middle
 
-| # | Problem | Techniques | Key Insight |
+| Status | # | Problem | Techniques | Key Insight |
 |---|---------|------------|-------------|
 | 1 | Closest Subsequence Sum (1755) | Split + enumerate both halves | 2^20 each half |
 | 2 | Partition Array Into Two Arrays to Minimize Sum Difference (2035) | Meet in middle + BS | Balance sums |
@@ -1652,7 +1652,7 @@ These are the problems that separate good candidates from great ones. Each requi
 
 ## Sweep Line + Data Structure
 
-| # | Problem | Techniques | Key Insight |
+| Status | # | Problem | Techniques | Key Insight |
 |---|---------|------------|-------------|
 | 1 | The Skyline Problem (218) | Sweep + heap/multiset | Track active heights |
 | 2 | Meeting Rooms II (253) | Sweep or heap | Count overlaps |
