@@ -12,7 +12,7 @@ This topic has distinct sub-patterns that each need practice.
 ### Variable Window — Shrink When Invalid
 | Status | # | Problem | Key Learning |
 |---|---|---------|--------------|
-| NOT STARTED | 4 | Longest Substring Without Repeating Characters (3) | Basic variable window |
+| ~~NOT STARTED~~ | 4 | Longest Substring Without Repeating Characters (3) | Basic variable window |
 | NOT STARTED | 5 | Longest Repeating Character Replacement (424) | Window with frequency constraint |
 | NOT STARTED | 6 | Max Consecutive Ones III (1004) | Binary array window |
 | NOT STARTED | 7 | Fruit Into Baskets (904) | At most k distinct |
