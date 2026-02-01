@@ -5,7 +5,7 @@ This topic has distinct sub-patterns that each need practice.
 ### Fixed Window
 | Status | # | Problem | Key Learning |
 |---|---|---------|--------------|
-| NOT STARTED | 1 | Maximum Average Subarray I (643) | Basic fixed window |
+| ~~NOT STARTED~~ | 1 | Maximum Average Subarray I (643) | Basic fixed window |
 | NOT STARTED | 2 | Sliding Window Maximum (239) | Fixed window + monotonic deque |
 | NOT STARTED | 3 | Sliding Window Median (480) | Fixed window + two heaps + lazy deletion |
 
@@ -13,9 +13,9 @@ This topic has distinct sub-patterns that each need practice.
 | Status | # | Problem | Key Learning |
 |---|---|---------|--------------|
 | ~~NOT STARTED~~ | 4 | Longest Substring Without Repeating Characters (3) | Basic variable window |
-| NOT STARTED | 5 | Longest Repeating Character Replacement (424) | Window with frequency constraint |
-| NOT STARTED | 6 | Max Consecutive Ones III (1004) | Binary array window |
-| NOT STARTED | 7 | Fruit Into Baskets (904) | At most k distinct |
+| ~~NOT STARTED~~ | 5 | Longest Repeating Character Replacement (424) | Window with frequency constraint |
+| ~~NOT STARTED~~ | 6 | Max Consecutive Ones III (1004) | Binary array window |
+| ~~NOT STARTED~~ | 7 | Fruit Into Baskets (904) | At most k distinct |
 | NOT STARTED | 8 | Longest Substring with At Most K Distinct Characters (340) | Generalized k distinct |
 | NOT STARTED | 9 | Get Equal Substrings Within Budget (1208) | Cost-based window |
 
@@ -23,13 +23,13 @@ This topic has distinct sub-patterns that each need practice.
 | Status | # | Problem | Key Learning |
 |---|---|---------|--------------|
 | NOT STARTED | 10 | Minimum Window Substring (76) | The hardest standard template |
-| NOT STARTED | 11 | Minimum Size Subarray Sum (209) | Minimum length with sum |
+| ~~NOT STARTED~~ | 11 | Minimum Size Subarray Sum (209) | Minimum length with sum |
 | NOT STARTED | 12 | Minimum Window Subsequence (727) | Subsequence matching |
 
 ### Count Subarrays — atMost(k) Trick
 | Status | # | Problem | Key Learning |
 |---|---|---------|--------------|
-| NOT STARTED | 13 | Subarrays with K Different Integers (992) | exactly(k) = atMost(k) - atMost(k-1) |
+| ~~NOT STARTED~~ | 13 | Subarrays with K Different Integers (992) | exactly(k) = atMost(k) - atMost(k-1) |
 | NOT STARTED | 14 | Count Number of Nice Subarrays (1248) | Same trick on odd numbers |
 | NOT STARTED | 15 | Binary Subarrays With Sum (930) | Same trick on binary |
 | NOT STARTED | 16 | Number of Substrings Containing All Three Characters (1358) | atLeast variation |
